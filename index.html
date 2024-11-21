@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "G5zqGVaVZLugeTv3s",
+            });
+        })();
+    </script>
+
+    <script src="script.js" defer></script>
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- Hero Section -->
+    <!-- Updated Hero Section -->
+<section id="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Prabin Karn</h1>
+            <p>Innovative Civil Engineer | Specializing in Hydropower Solutions</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+        <div class="hero-image">
+            <img src="prabin.jpg" alt="Your Name">
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate and driven civil engineer with a solid foundation in designing, planning, and managing construction projects. My professional journey has allowed me to work on impactful initiatives like the Melamchi Water Supply Project, where I honed my skills in developing detailed construction plans, estimating costs, and ensuring the seamless execution of work schedules.
+
+            Currently pursuing a master’s degree in Hydropower Engineering, I am deeply committed to creating sustainable and innovative infrastructure solutions that balance technical excellence with environmental responsibility. I thrive on solving complex challenges and collaborating with teams to transform visionary ideas into reality.
+            
+            With a keen eye for detail, strong work ethic, and a desire to make a tangible difference, I am eager to take on new opportunities that push boundaries and create value for communities. Let’s connect to discuss how I can contribute to your projects or explore groundbreaking ideas together!</p>
+        
+    </section>
+
+    <!-- Education Section -->
+<section id="education">
+    <h2>Education</h2>
+    <div class="timeline-grid">
+        <div class="timeline-card">
+            <h3>Master's in Hydropower Engineering</h3>
+            <p class="timeline-date">2022 - Present</p>
+            <p>University Name</p>
+            <ul>
+                <li>Specialization in Hydraulic Structures</li>
+                <li>Research focus on sustainable energy solutions</li>
+            </ul>
+        </div>
+        <div class="timeline-card">
+            <h3>Bachelor's in Civil Engineering</h3>
+            <p class="timeline-date">2018 - 2022</p>
+            <p>University Name</p>
+            <ul>
+                <li>Major in Structural Engineering</li>
+                <li>Minor in Environmental Engineering</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="timeline-grid">
+        <div class="timeline-card">
+            <h3>Civil Engineer</h3>
+            <p class="timeline-date">2022 - Present</p>
+            <p>Company Name</p>
+            <ul>
+                <li>Led hydropower plant optimization projects</li>
+                <li>Developed sustainable infrastructure solutions</li>
+            </ul>
+        </div>
+        <div class="timeline-card">
+            <h3>Engineering Intern</h3>
+            <p class="timeline-date">2021 - 2022</p>
+            <p>Company Name</p>
+            <ul>
+                <li>Assisted in structural design projects</li>
+                <li>Conducted site inspections and assessments</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3>Technical Skills</h3>
+            <div class="skill-items">
+                <span>AutoCAD</span>
+                <span>STAAD Pro</span>
+                <span>HEC-RAS</span>
+                <span>Civil 3D</span>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Software Skills</h3>
+            <div class="skill-items">
+                <span>MS Office</span>
+                <span>Python</span>
+                <span>MATLAB</span>
+                <span>GIS</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Hydropower Plant Design</h3>
+            <p>Designed a scalable hydropower plant that optimized energy efficiency by 20%.</p>
+        </div>
+        <div class="project-card">
+            <h3>Bridge Infrastructure Optimization</h3>
+            <p>Enhanced bridge durability with advanced material analysis, reducing maintenance costs by 15%.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="from_name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="from_email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
