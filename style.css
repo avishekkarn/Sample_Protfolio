@@ -24,7 +24,7 @@ body {
 
 /* Header Styling */
 header {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     background: hsla(0, 13%, 3%, 0.533);
